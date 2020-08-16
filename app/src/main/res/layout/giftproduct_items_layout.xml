@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/ybg2">
+
+
+    <TextView
+        android:id="@+id/h1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorPrimary">
+
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/up"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="-8dp"
+        android:layout_marginRight="100dp"
+        android:src="@drawable/userprof" />
+
+    <TextView
+        android:id="@+id/chocolate_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/h1"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="60dp"
+        android:text="Chocolates"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:textStyle="italic"></TextView>
+
+    <ImageView
+        android:id="@+id/ch1"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/chocolate_header"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="100dp"
+        android:src="@drawable/chp1" />
+
+
+    <Button
+        android:id="@+id/viewc1"
+        android:layout_width="154dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/ch1"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="-2dp"
+        android:shadowColor="@color/colorPrimaryDark"
+        android:text="View Description"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="8sp">
+
+    </Button>
+
+    <ImageView
+        android:id="@+id/ch2"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/viewc1"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="100dp"
+        android:src="@drawable/chp2" />
+
+
+    <Button
+        android:id="@+id/viewc2"
+        android:layout_width="154dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/ch2"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="-2dp"
+        android:shadowColor="@color/colorPrimaryDark"
+        android:text="View Description"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="8sp">
+
+    </Button>
+
+    <ImageView
+        android:id="@+id/ch3"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/viewc2"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="100dp"
+        android:src="@drawable/chp3" />
+
+
+    <Button
+        android:id="@+id/viewc3"
+        android:layout_width="154dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/ch3"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="-2dp"
+        android:shadowColor="@color/colorPrimaryDark"
+        android:text="View Description"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="8sp">
+
+    </Button>
+
+    <ImageView
+        android:id="@+id/ch4"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/viewc3"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="100dp"
+        android:src="@drawable/chp4" />
+
+
+    <Button
+        android:id="@+id/viewc4"
+        android:layout_width="154dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/ch4"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="-2dp"
+        android:shadowColor="@color/colorPrimaryDark"
+        android:text="View Description"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="8sp">
+
+    </Button>
+
+
+    <Button
+        android:id="@+id/previous"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/viewc4"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:shadowColor="@color/colorPrimaryDark"
+        android:text="Previous"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="8sp">
+
+    </Button>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/viewc4"
+        android:layout_marginLeft="360dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:shadowColor="@color/colorPrimaryDark"
+        android:text="Next"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="8sp">
+
+    </Button>
+
+
+</RelativeLayout>
+
