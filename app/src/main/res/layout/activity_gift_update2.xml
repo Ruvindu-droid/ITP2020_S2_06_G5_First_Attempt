@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GiftUpdateActivity2">
+
+
+    <TextView
+        android:id="@+id/slogan_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:fontFamily="cursive"
+        android:text="@string/topic3"
+        android:textAlignment="center"
+        android:textColor="#7A0B33"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:id="@+id/linear1_box_wrap"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/slogan_box"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:gravity=""
+        android:layout_marginTop="45dp">
+
+
+
+        <ImageView
+            android:id="@+id/pink"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:src="@drawable/f"
+            />
+        <ImageView
+            android:id="@+id/black"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:src="@drawable/f1"
+            />
+        <ImageView
+            android:id="@+id/dark_blue"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:src="@drawable/f4"
+            />
+        <ImageView
+            android:id="@+id/red"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:src="@drawable/f5"
+            />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/BoxB"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/buttons"
+        android:fontFamily="cursive"
+        android:padding="20dp"
+        android:text="@string/button5"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/BoxA"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="300dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/buttons"
+        android:fontFamily="cursive"
+        android:padding="20dp"
+        android:text="@string/r2"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/BoxC"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="445dp"
+        android:layout_marginLeft="350dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/buttons"
+        android:fontFamily="cursive"
+        android:padding="20dp"
+        android:text="@string/button6"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="93dp"
+        android:layout_height="85dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="805dp"
+        android:textSize="24sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="486dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginEnd="113dp"
+        android:layout_marginBottom="724dp"
+        android:textSize="24sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="487dp"
+        android:layout_marginTop="357dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="621dp"
+        android:textSize="24sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="488dp"
+        android:layout_marginTop="443dp"
+        android:layout_marginEnd="111dp"
+        android:layout_marginBottom="535dp"
+        android:textSize="24sp" />
+
+
+</RelativeLayout>

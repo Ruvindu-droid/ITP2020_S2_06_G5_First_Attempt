@@ -4,78 +4,39 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/BrideGpk"
+    android:background="@drawable/a"
     tools:context=".MainActivity">
 
-
-<ImageView
-    android:id="@+id/Present"
-    android:layout_width="400pt"
-    android:layout_height="100pt"
-    android:backgroundTintMode="add"
-    android:layout_centerHorizontal="true"
-    android:layout_marginTop="50dp"
-    android:src="@drawable/Present"
-    />
-
     <TextView
-
-        android:id="@+id/Welcome_Massage"
-        android:layout_width="220dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="false"
-        android:layout_alignParentEnd="false"
-        android:layout_marginEnd="88dp"
-        android:layout_marginTop="290dp"
-        android:text="@string/Welcome_Massage"
+        android:id="@+id/app_slogan"
+        android:layout_width="260dp"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="81dp"
+        android:fontFamily="cursive"
+        android:text="@string/topic1"
         android:textAlignment="center"
-        android:textColor="#08088A"
-        android:textSize="25sp"
-        android:textStyle="italic|bold"
-
-        android:layout_alignParentRight="true"
-        android:layout_marginRight="88dp"
-        android:gravity="center_horizontal" />
-
-
-
+        android:textColor="#AE0945"
+        android:textSize="55sp"
+        android:textStyle="bold|italic" />
 
     <Button
-        android:id="@+id/welcome_main_login_btn"
-        android:layout_alignParentBottom="true"
+        android:id="@+id/Next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
         android:layout_marginBottom="40dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:background="@drawable/rkbuttons"
+        android:background="@drawable/buttons"
+        android:fontFamily="cursive"
         android:padding="20dp"
+        android:text="@string/button1"
         android:textAllCaps="false"
-        android:textColor="#8A0808"
-        android:textSize="20sp"
-        android:textStyle="italic"
-        android:text="@string/Login_Selection_Btn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:ignore="RtlCompat" />
-
-
-
-    <Button
-        android:id="@+id/welcome_main_join_now_btn"
-
-        android:layout_marginBottom="10dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_above="@id/welcome_main_login_btn"
-        android:background="@drawable/rkinputs"
-        android:padding="20dp"
-        android:textAllCaps="false"
-        android:textSize="20sp"
-        android:text="@string/Create_Account_Selection_Button"
-        android:textColor="#8A0808"
-        android:textStyle="italic"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:ignore="RtlCompat" />
-
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
 </RelativeLayout>
