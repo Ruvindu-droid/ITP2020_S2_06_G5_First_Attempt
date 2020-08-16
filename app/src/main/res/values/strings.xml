@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Gifts</string>
+    <string name="topic1">Welcome to Wrapping Stage</string>
+    <string name="topic2">Choose Your Gift Wrapping</string>
+    <string name="topic3">Choose Your Favourite Gift Box</string>
+    <string name="topic4">Choose Your Favourite Gift Bag</string>
+    <string name="topic5">Choose Your Favourite Wrapping Paper</string>
+    <string name="button1">CLICK NEXT</string>
+    <string name="button2">Box Wrap</string>
+    <string name="button3">Bag Wrap</string>
+    <string name="button4">Wrapping Paper</string>
+    <string name="button5">Update</string>
+    <string name="button6">Next</string>
+    <string name="button7">Update</string>
+    <string name="button8">Next</string>
+    <string name="button9">Update</string>
+    <string name="button10">Next</string>
+    <string name="button">Remove</string>
+    <string name="btnnew">Remove</string>
+    <string name="r1">Remove</string>
+    <string name="r2">Remove</string>
+</resources>
