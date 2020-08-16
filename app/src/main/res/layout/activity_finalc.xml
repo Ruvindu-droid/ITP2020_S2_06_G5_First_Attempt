@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pink"
+    tools:context=".finalc">
+
+    <TextView
+        android:id="@+id/heading8"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/card_ready"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="50sp"
+        android:textStyle="bold|italic"
+        android:textIsSelectable="true"
+        />
+
+    <ImageView
+        android:id="@+id/wel"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_below="@id/heading8"
+        android:src="@drawable/get" />
+
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="11dp"
+        android:background="@drawable/buttons"
+        android:padding="10dp"
+        android:text="@string/ready_next"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="205dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/buttons"
+        android:padding="5dp"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:layout_above="@+id/next"
+        android:text="@string/ready_ok"
+        android:textColor="@android:color/black"
+        />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/buttons"
+        android:padding="5dp"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:layout_above="@+id/next"
+        android:text="@string/ready_delete"
+        android:textColor="@android:color/black"
+        />
+</RelativeLayout>

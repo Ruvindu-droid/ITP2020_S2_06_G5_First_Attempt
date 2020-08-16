@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Mobilegift</string>
+    <string name="select_gift">Select one gift.It is free for you</string>
+    <string name="present_us">Presents From Us</string>
+    <string name="button_first">NEXT</string>
+    <string name="card_text">Select a CARD</string>
+    <string name="sel_button">SELECTED</string>
+    <string name="show_text">Show your love</string>
+    <string name="message">Type your greeting message here</string>
+    <string name="up_button">UPDATE</string>
+    <string name="de_button_f">DELETE</string>
+    <string name="ne_button">NEXT</string>
+    <string name="card_ready">Your Card Is Ready</string>
+    <string name="ready_ok">OK</string>
+    <string name="ready_delete">DELETE</string>
+    <string name="ready_next">NEXT</string>
+
+</resources>
